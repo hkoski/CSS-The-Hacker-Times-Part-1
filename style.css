@@ -2,7 +2,8 @@
 body{
     font-family: source sans pro;
     background-color: #eee;
-    padding: 1em 5em 1em 5em;
+    padding: 30%;
+    padding-top: 3em;
 }
 header{
     font-family: abril fatface;
@@ -10,11 +11,10 @@ header{
 }
 .date{
     text-align: left;
-    font-family: roboto slab;
+    font-family: source sans pro;
     color: #777;
-    font-weight: 100
 }
-h2, h4{
+h2, h4, h5{
     font-family: roboto slab;
 }
 .newspaper-container{
@@ -35,16 +35,17 @@ a:link{
 
 }
 ul{
-    border-top: 1px solid whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
     padding: 0em 2em;
+    position: sticky;
 }
 .more-articles{
     text-align: center;
-    border-top: 1px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
     padding: .85em;
 }
-h5{
+main h5{
     color: #dd3232;
     font-family: abril fatface;
 }
@@ -57,4 +58,24 @@ h5{
 .article{
     text-align: justify;
     width: 100%;
+}
+nav{
+    position: sticky;
+    top: 0em;
+    background-color: white
+}
+.extra-articles{
+    color: black;
+    text-align: justify;
+    padding: 0.75em;
+}
+.extra{
+    display: inline-block;
+    width: 30%;
+    padding: 0.5em;
+}
+footer{
+    text-align: center;
+    font-size: smaller;
+    color: whitesmoke;
 }
